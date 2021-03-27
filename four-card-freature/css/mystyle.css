@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap%22");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(234, 12%, 34%);
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-weight: 20;
+}
+main {
+    color: grey;
+    font-size: 15px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+main img {
+    position: relative;
+    margin-left: 70%;
+    height: 50px;
+    left: 18px;
+    bottom: px;
+}
+main div {
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+    position: relative;
+}
+.box-cian {
+    margin: 30px;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px 2px hsl(229, 6%, 66%);
+    border-top: hsl(180, 62%, 55%) 4px solid;
+}
+.box-red {
+    margin: 50px;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px 2px hsl(229, 6%, 66%);
+    border-top: hsl(0, 78%, 62%) 4px solid;
+}
+.box-orange {
+    margin: 50px;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px 2px hsl(229, 6%, 66%);
+    border-top: hsl(34, 97%, 64%) 4px solid;
+}
+.box-blue {
+    margin: 30px;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 8px 8px 2px hsl(229, 6%, 66%);
+    border-top: hsl(212, 86%, 64%) 4px solid;
+}
+.intro {
+    margin: 0 auto;
+    max-width: 500px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: grey;
+}
+main p {
+    position: relative;
+    text-align: justify;
+    margin-left: 15px;
+    bottom: 12px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+span, h2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    
+}
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
+@media only screen and (max-width: 739px) and (min-width: 490px){
+    main {
+        display: flex;
+        height: 24vh;
+    }
+}
