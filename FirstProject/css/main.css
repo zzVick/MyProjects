@@ -1,0 +1,189 @@
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #e6e6e6;
+}
+.menu-principal {
+width: 100%;
+background-color: #2f2e40;
+height: 180px;
+position: relative;
+}
+main {
+margin: 0 auto;
+position: relative;
+}
+.submenu {
+    height: 50px;
+    background-color: #fdfdfb;
+    box-shadow: 0px 2px 4px #1f1f1f;
+}
+.logo {
+padding-top: 3%;
+padding-left: 45%;
+}
+.discord {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
+    position: absolute;
+    width: 4%;
+    top: 30%;
+    right: 4%;
+  }
+  .discord:hover {
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+      transition: 1s;
+  }
+
+  .facebook {
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(0%);
+      position: absolute;
+      width: 4%;
+      top: 30%;
+      right: 8%;
+  }
+  .facebook:hover {
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+      transition: 1s;
+  }
+  .twitter {
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(0%);
+      position: absolute;
+      width: 5%;
+      top: 26%;
+      right: 11.8%;
+  }
+  .twitter:hover {
+      filter: grayscale(100%);
+      -webkit-filter: grayscale(100%);
+      transition: 1s;
+  }
+  ul {
+      list-style: none;
+  }
+  .texto1, .texto2, .texto3 {
+     position: relative;
+     padding: 10px;
+     top: 63%;
+     font-family: 'Yusei Magic', sans-serif;
+     width: 300px;
+     text-align: justify;
+     background: linear-gradient(45deg, #1a1427, #1a112b, #2a1c44, #332255, #483079, #5b3d99);
+     background-size: 300% 300%;
+     animation: colors 5s ease infinite;
+     color: white;
+     border-style: solid;
+     border-radius: 5px;
+     border-color: #ffffff;
+     box-shadow: 2px 5px 5px #bec0bf;
+     cursor: default;
+     text-shadow: 2px 5px 5px #2f2e40;
+     display: inline-block;
+  }
+@keyframes colors {
+    0% { 
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+     }
+     .texto4 {
+         position: absolute;
+         top: 20%;
+         left: 5%;
+         font-family: 'Yusei Magic', sans-serif;
+         color: white;
+         text-shadow: 5px 5px 5px black;
+     }
+     .foguete svg {
+         position: absolute;
+         top: 15cm;
+        left: 31%;
+        width: 600px;
+        height: 600px;
+        z-index: 1;
+     }
+     .gradiente {
+         background-color: #3f3d55;
+         width: 1349px;
+         height: 250px;
+         position: absolute;
+         top: 22cm;
+     }
+        
+        .botao {
+            position: absolute;
+            background: linear-gradient(45deg, #3f3d55, #2f2e40);
+            width: 250px;
+            height: 60px;
+            top: 140px;
+            left: 27.5cm;
+            font-family: 'Yusei Magic', sans-serif;
+            font-size: 30px; 
+            border: 1px solid white;
+            border-radius: 6px;
+            color: white;
+            text-transform: uppercase;
+            cursor: pointer;
+            box-shadow: 2px 2px 2px #2f2e40;
+        }
+
+        .textos {
+            text-align: center;
+        }
+        .textos div {
+            display: inline-block;
+            text-align: left;
+            margin-top: 165px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        .elementos {
+            text-align: center;
+        }
+        .elementos div {
+            position: relative;
+            bottom: 355px;
+            display: inline-block;
+            text-align: left;
+            margin-left: 165px;
+            margin-right: 165px;
+            color: #2f2e40;
+        }
+        .fa-seedling {
+            position: relative;
+            left: 10px;
+        }
+        .fa-book {
+            position: relative;
+            bottom: 1px;
+        }
+        .fa-handshake {
+            position: relative;
+            top: 2px;
+        }
+        .subt div {
+            position: relative;
+            text-align: center;
+            display: inline-flex;
+            padding: 10px;
+            bottom: 500px;
+        }
+        .subtitulos {
+            font-family: 'Yusei Magic', sans-serif;
+            color: #333533;
+            font-size: 30px;
+            text-shadow: 2px 2px 1px #bec0bf;
+            text-align: center;
+        }
